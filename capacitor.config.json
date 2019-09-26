@@ -1,0 +1,7 @@
+{
+  "appId": "xyz.niushi3.io.ionic.starter",
+  "appName": "ionic-vue-app",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist"
+}
