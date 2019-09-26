@@ -1,29 +1,35 @@
 # ionic-vue
 
-## Project setup
+### インストール
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 起動
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### ビルド
 ```
 npm run build
 ```
 
-### Run your tests
+## Capacitor
+
+### Add Platforms
 ```
-npm run test
+npx cap add ios
+npx cap add android
 ```
 
-### Lints and fixes files
+### Open IDE to build
 ```
-npm run lint
+npx cap open ios
+npx cap open android
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Syncing your app with Capacitor
+```
+npx cap copy
+```
